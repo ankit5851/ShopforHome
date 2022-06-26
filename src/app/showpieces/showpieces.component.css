@@ -1,0 +1,17 @@
+.heading {
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sub_head {
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card {
+    padding: 10px;
+}
