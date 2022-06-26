@@ -10,28 +10,35 @@
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item">
                     <a class="nav-link" routerLinkActive="active" routerLink="/about-us">About Us</a>
-                  </li>
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown"
                         aria-expanded="false">Categories</a>
                     <ul class="dropdown-menu" aria-labelledby="dropdown04">
                         <li><a class="dropdown-item" routerLinkActive="active" routerLink="/painting">Paintings</a></li>
-                        <li><a class="dropdown-item" routerLinkActive="active" routerLink="/showpieces">Showpieces</a></li>
+                        <li><a class="dropdown-item" routerLinkActive="active" routerLink="/showpieces">Showpieces</a>
+                        </li>
                         <li><a class="dropdown-item" routerLinkActive="active" routerLink="/stickers">Stickers</a></li>
-                        <li><a class="dropdown-item" routerLinkActive="active" routerLink="/wallshelf">Wall Shelves</a></li>
-                        <li><a class="dropdown-item" routerLinkActive="active" routerLink="/clocks">Clocks</a></li><hr>
+                        <li><a class="dropdown-item" routerLinkActive="active" routerLink="/wallshelf">Wall Shelves</a>
+                        </li>
+                        <li><a class="dropdown-item" routerLinkActive="active" routerLink="/clocks">Clocks</a></li>
+                        <hr>
                         <li><a class="dropdown-item" routerLinkActive="active" routerLink="/others">Others</a></li>
                     </ul>
                 </li>
-                
+
                 <li class="nav-item">
-                    <a class="nav-link" routerLinkActive="active" routerLink="/wishlist">Wishlist <img src="../assets/images/red_wishlist.png" alt="wishlist" height="25px" style="padding-bottom: 2px;"></a>
+                    <a class="nav-link" routerLinkActive="active" routerLink="/wishlist">Wishlist <img
+                            src="../assets/images/red_wishlist.png" alt="wishlist" height="25px"
+                            style="padding-bottom: 2px;"></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLinkActive="active" routerLink="/cart">Cart <img src="../assets/images/cart.png" alt="cart" height="23px" style="padding-bottom: 2px;"></a>
+                    <a class="nav-link" routerLinkActive="active" routerLink="/cart">Cart <img
+                            src="../assets/images/cart.png" alt="cart" height="23px" style="padding-bottom: 2px;"></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLinkActive="active" routerLink="/register">Login <img src="../assets/images/login.png" alt="wishlist" height="25px"></a>
+                    <a class="nav-link" routerLinkActive="active" routerLink="/register">Login <img
+                            src="../assets/images/login.png" alt="wishlist" height="25px"></a>
                 </li>
             </ul>
             <form class="d-flex" role="search">
@@ -44,35 +51,57 @@
 
 
 
-<router-outlet></router-outlet>  
+<router-outlet></router-outlet>
 
-<div class="footer-dark">
-  <footer>
-      <div class="container">
-          <div class="row">
-              <div class="col-sm-6 col-md-3 item">
-                  <h3>Services</h3>
-                  <ul>
-                      <li><a href="#">Web design</a></li>
-                      <li><a href="#">Development</a></li>
-                      <li><a href="#">Hosting</a></li>
-                  </ul>
-              </div>
-              <div class="col-sm-6 col-md-3 item">
-                  <h3>About</h3>
-                  <ul>
-                      <li><a href="#">Company</a></li>
-                      <li><a href="#">Team</a></li>
-                      <li><a href="#">Careers</a></li>
-                  </ul>
-              </div>
-              <div class="col-md-6 item text">
-                  <h3>Company Name</h3>
-                  <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
-              </div>
-              <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
-          </div>
-          <p class="copyright">Company Name © 2022</p>
+<footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About</h6>
+          <p class="text-justify">Started in the year 2022, ShopForHome has been a pioneer in manufacturing and retailing supreme quality and elegant range of Wall Decals, Wall Paintings and other home decor items. Headquartered at New Delhi, we have been offering the most creative and beautiful decals all over the country. We initiated our business with wall stickers and continuously expanding in the fields of other vinyl decor products with best quality promise.</p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Categories</h6>
+          <ul class="footer-links">
+            <li><a routerLinkActive="active" routerLink="/painting">Paintings</a></li>
+            <li><a routerLinkActive="active" routerLink="/stickers">Stickers</a></li>
+            <li><a routerLinkActive="active" routerLink="/showpieces">Showpieces</a></li>
+            <li><a routerLinkActive="active" routerLink="/clocks">Clocks</a></li>
+            <li><a routerLinkActive="active" routerLink="/wallshelf">WallShelf</a></li>
+            <li><a routerLinkActive="active" routerLink="/others">Others</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a routerLinkActive="active" routerLink="/about-us">About Us</a></li>
+            <li><a href="a">Contact Us</a></li>
+            <li><a href="a">Contribute</a></li>
+            <li><a href="a">Privacy Policy</a></li>
+            <li><a href="a">Sitemap</a></li>
+          </ul>
+        </div>
       </div>
-  </footer>
-</div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+       <a href="#">ShopForHome</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
